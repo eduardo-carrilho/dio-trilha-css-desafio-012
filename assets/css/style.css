@@ -1,0 +1,206 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+}
+.menu-esquerda{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+.botao-menu-lateral{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 90px;
+    height: 20px;
+}
+
+.barra{
+    display: flex;
+}
+
+.barra-pesquisa{
+    width: 404px;
+    height: 40px;
+}
+
+.menu-direita{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.opcoes{
+    width: 24px;
+    height: 24px;
+}
+
+.avatar-usuario{
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+}
+
+.pagina-principal{
+    margin-top: 24px;
+    margin: 24px;
+    display: flex;  
+    gap: 0px;
+    justify-content: flex-end;
+    gap: 64px;
+}
+
+.video{
+    width: 952px;
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video-lateral{
+    display: flex;
+    gap: 1em;
+    width: 360px;
+}
+
+.thumb{
+    width: 160px;
+    height: 90px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.titulo-thumbs{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.texto-thumbs{
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    
+}
+
+.ajuste-informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video-player{
+    width: 952px;
+    height: 537px;
+}
+
+.opcoes-video{
+    display: flex;
+    gap: 42px;
+}
+
+.titulo-video{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    margin: 4px 0;
+
+}
+
+.logo-canal{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+}
+
+.informacoes-canal{
+    display: flex;
+    gap: 12px;
+}
+
+.informacoes-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nome-canal{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inscritos-canal{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.botao-inscrever{
+    background-color: #CC0000;
+    color: white;
+    width: 159px;
+    height: 40px;
+    border: 0;
+}
+
+.opcao-acao{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.icone-acao{
+    width: 24px;
+    height: 24px;
+}
+
+.informacoes-video{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.descricao{
+    color: #515151;
+    font-size: 14px;
+    font-weight: 400;
+    width: 510px;
+}
